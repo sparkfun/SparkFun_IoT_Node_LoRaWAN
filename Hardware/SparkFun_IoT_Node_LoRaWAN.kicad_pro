@@ -453,7 +453,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SparkFun_Default_KiCad_Setup.kicad_pro",
+    "filename": "SparkFun_IoT_Node_LoRaWAN.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -617,6 +617,18 @@
     [
       "e3dd3ae4-244d-4cba-9cca-5d2abf83f29a",
       "Root"
+    ],
+    [
+      "590da06b-12fb-4a03-9ce6-308c286b4365",
+      "RP2350"
+    ],
+    [
+      "1b24c23d-c299-46bd-85a2-56e1a820a807",
+      "XBLR"
+    ],
+    [
+      "dbc2d9e4-ca23-4a61-9b1d-8995182ae302",
+      "Power and Peripherals"
     ]
   ],
   "text_variables": {}

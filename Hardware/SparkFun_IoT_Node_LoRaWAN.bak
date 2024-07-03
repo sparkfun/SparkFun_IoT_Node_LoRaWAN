@@ -15,15 +15,15 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 -5.08 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 -5.08 0)
+		(property "Footprint" "SparkFun_IoT_Node_LoRaWAN:XBee_LR"
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 -5.08 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +41,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 -5.08 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,8 +51,8 @@
 		)
 		(symbol "XBee_LR_1_1"
 			(rectangle
-				(start -22.86 19.05)
-				(end 22.86 -19.05)
+				(start -19.05 22.86)
+				(end 19.05 -22.86)
 				(stroke
 					(width 0)
 					(type default)
@@ -62,7 +62,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 -17.78 0)
+				(at -21.59 -21.59 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -80,7 +80,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 -17.78 0)
+				(at -21.59 -21.59 0)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -98,9 +98,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -5.08 180)
+				(at 21.59 -19.05 180)
 				(length 2.54)
-				(name "SPI_~{ATTN}/~{BOOTMODE}/DIO19"
+				(name "~{ATTN}/DIO19"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -116,7 +116,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 -17.78 0)
+				(at -21.59 -21.59 0)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -134,9 +134,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -7.62 180)
+				(at 21.59 -16.51 180)
 				(length 2.54)
-				(name "SPI_CLK/DIO18"
+				(name "SPI_SCLK/DIO18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -152,7 +152,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -2.54 180)
+				(at 21.59 -13.97 180)
 				(length 2.54)
 				(name "SPI_~{SSEL}/DIO17"
 					(effects
@@ -170,7 +170,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -10.16 180)
+				(at 21.59 -11.43 180)
 				(length 2.54)
 				(name "SPI_MOSI/DIO16"
 					(effects
@@ -188,7 +188,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -12.7 180)
+				(at 21.59 -8.89 180)
 				(length 2.54)
 				(name "SPI_MISO/DIO15"
 					(effects
@@ -205,10 +205,10 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -2.54 16.51 90)
-				(length 2.54) hide
-				(name "NC"
+			(pin bidirectional line
+				(at -21.59 11.43 0)
+				(length 2.54)
+				(name "JTCK/SWCLK_0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -223,10 +223,10 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 0 16.51 90)
-				(length 2.54) hide
-				(name "NC"
+			(pin bidirectional line
+				(at -21.59 8.89 0)
+				(length 2.54)
+				(name "JTDO/SWO_0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -241,10 +241,10 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 2.54 16.51 90)
-				(length 2.54) hide
-				(name "NC"
+			(pin bidirectional line
+				(at -21.59 3.81 0)
+				(length 2.54)
+				(name "JTDI/SWDIO_1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -260,7 +260,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 17.78 0)
+				(at -21.59 21.59 0)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -277,10 +277,10 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 5.08 16.51 90)
-				(length 2.54) hide
-				(name "NC"
+			(pin bidirectional line
+				(at -21.59 6.35 0)
+				(length 2.54)
+				(name "JTMS/SWDIO_0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -296,7 +296,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 -17.78 0)
+				(at -21.59 -21.59 0)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -313,10 +313,10 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 7.62 16.51 90)
-				(length 2.54) hide
-				(name "NC"
+			(pin bidirectional line
+				(at -21.59 1.27 0)
+				(length 2.54)
+				(name "SWCLK_1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -332,7 +332,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 5.08 180)
+				(at 21.59 8.89 180)
 				(length 2.54)
 				(name "DIO4"
 					(effects
@@ -350,7 +350,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -5.08 0)
+				(at -21.59 -8.89 0)
 				(length 2.54)
 				(name "~{CTS}/DIO7"
 					(effects
@@ -368,9 +368,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 7.62 0)
+				(at 21.59 1.27 180)
 				(length 2.54)
-				(name "ON/~{SLEEP}/DIO9"
+				(name "ON/~{SLP}/DIO9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -386,9 +386,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 5.08 0)
+				(at 21.59 6.35 180)
 				(length 2.54)
-				(name "ASSOCIATE/DIO5"
+				(name "ASSOC/DIO5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -404,7 +404,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -7.62 0)
+				(at -21.59 -11.43 0)
 				(length 2.54)
 				(name "~{RTS}/DIO6"
 					(effects
@@ -422,7 +422,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 10.16 180)
+				(at 21.59 11.43 180)
 				(length 2.54)
 				(name "AD3/DIO3"
 					(effects
@@ -440,7 +440,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 12.7 180)
+				(at 21.59 13.97 180)
 				(length 2.54)
 				(name "AD2/DIO2"
 					(effects
@@ -458,7 +458,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 0 0)
+				(at -21.59 -3.81 0)
 				(length 2.54)
 				(name "DOUT/DIO13"
 					(effects
@@ -476,9 +476,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 15.24 180)
+				(at 21.59 16.51 180)
 				(length 2.54)
-				(name "I2C_SCL/AD1/DIO1"
+				(name "AD1/DIO1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -494,9 +494,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 17.78 180)
+				(at 21.59 19.05 180)
 				(length 2.54)
-				(name "AD0/DIO0"
+				(name "COMM/AD0/DIO0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -512,7 +512,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 -17.78 0)
+				(at -21.59 -21.59 0)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -530,7 +530,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -12.7 0)
+				(at -21.59 -16.51 0)
 				(length 2.54)
 				(name "RF"
 					(effects
@@ -548,7 +548,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 -17.78 0)
+				(at -21.59 -21.59 0)
 				(length 2.54) hide
 				(name "GND"
 					(effects
@@ -566,7 +566,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -2.54 0)
+				(at -21.59 -6.35 0)
 				(length 2.54)
 				(name "DIN/~{CONFIG}/DIO14"
 					(effects
@@ -584,7 +584,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 2.54 180)
+				(at 21.59 -6.35 180)
 				(length 2.54)
 				(name "DIO12"
 					(effects
@@ -602,7 +602,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 12.7 0)
+				(at -21.59 16.51 0)
 				(length 2.54)
 				(name "~{RESET}"
 					(effects
@@ -619,10 +619,10 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -7.62 16.51 90)
-				(length 2.54) hide
-				(name "NC"
+			(pin bidirectional line
+				(at 21.59 -1.27 180)
+				(length 2.54)
+				(name "PWM0/RSSI/DIO10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -637,10 +637,10 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -5.08 16.51 90)
-				(length 2.54) hide
-				(name "NC"
+			(pin bidirectional line
+				(at 21.59 -3.81 180)
+				(length 2.54)
+				(name "PWM1/DIO11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -656,9 +656,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 10.16 0)
+				(at 21.59 3.81 180)
 				(length 2.54)
-				(name "~{DTR}/SLEEP_RQ/DIO8"
+				(name "~{DTR}/DIO8"
 					(effects
 						(font
 							(size 1.27 1.27)
