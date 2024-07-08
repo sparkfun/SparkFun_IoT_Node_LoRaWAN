@@ -1098,7 +1098,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "#4 screw stand off"
+			(property "ki_keywords" "SparkFun #4 screw stand off"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1127,69 +1127,6 @@
 					(fill
 						(type none)
 					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Hardware:Standoff")
-		(at 250.19 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "01446c66-91f5-46d5-b726-b2bbfbf726eb")
-		(property "Reference" "ST2"
-			(at 250.19 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Stand_off"
-			(at 250.19 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SparkFun-Hardware:Standoff"
-			(at 250.19 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 250.19 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 250.19 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "SparkFun_Default_KiCad_Setup"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "ST2")
-					(unit 1)
 				)
 			)
 		)
@@ -1260,15 +1197,16 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Hardware:Standoff")
-		(at 254 179.07 0)
+		(at 247.65 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "56277993-b69c-4076-80f1-028732d58d81")
+		(fields_autoplaced yes)
+		(uuid "2bbfb297-f67b-47e6-b98a-f65b90484485")
 		(property "Reference" "ST4"
-			(at 254 176.53 0)
+			(at 247.65 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1276,8 +1214,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Stand_off"
-			(at 254 181.61 0)
+		(property "Value" "Standoff"
+			(at 247.65 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1286,7 +1224,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Hardware:Standoff"
-			(at 254 184.15 0)
+			(at 247.65 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1295,7 +1233,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 254 182.88 0)
+			(at 247.65 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1303,8 +1241,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 254 179.07 0)
+		(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
+			(at 247.65 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1313,7 +1251,7 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Default_KiCad_Setup"
+			(project "SparkFun_IoT_Node_LoRaWAN"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "ST4")
 					(unit 1)
@@ -1323,15 +1261,16 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Hardware:Standoff")
-		(at 250.19 175.26 0)
+		(at 247.65 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6685cf0a-6943-4c54-8d4f-b9f189ce2a54")
-		(property "Reference" "ST1"
-			(at 250.19 172.72 0)
+		(fields_autoplaced yes)
+		(uuid "34a2de58-2cad-48bf-8c3c-137c75286963")
+		(property "Reference" "ST3"
+			(at 247.65 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1339,8 +1278,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Stand_off"
-			(at 250.19 177.8 0)
+		(property "Value" "Standoff"
+			(at 247.65 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1349,7 +1288,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Hardware:Standoff"
-			(at 250.19 180.34 0)
+			(at 247.65 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1358,7 +1297,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.19 179.07 0)
+			(at 247.65 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1366,8 +1305,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 250.19 175.26 0)
+		(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
+			(at 247.65 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1376,7 +1315,135 @@
 			)
 		)
 		(instances
-			(project "SparkFun_Default_KiCad_Setup"
+			(project "SparkFun_IoT_Node_LoRaWAN"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "ST3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Hardware:Standoff")
+		(at 251.46 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "457f7f07-dfd3-4e65-9bf8-3b2f3e50f71e")
+		(property "Reference" "ST2"
+			(at 251.46 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Standoff"
+			(at 251.46 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Hardware:Standoff"
+			(at 251.46 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
+			(at 251.46 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "SparkFun_IoT_Node_LoRaWAN"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "ST2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Hardware:Standoff")
+		(at 251.46 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f95e19e-75e8-48fa-b0a9-ce9daaf46ec5")
+		(property "Reference" "ST1"
+			(at 251.46 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Standoff"
+			(at 251.46 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Hardware:Standoff"
+			(at 251.46 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
+			(at 251.46 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "ST1")
 					(unit 1)
@@ -1443,70 +1510,6 @@
 			(project "SparkFun_Default_KiCad_Setup"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "FID4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Hardware:Standoff")
-		(at 254 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7c6696af-f8ea-4dc6-9a32-3bca233b1d03")
-		(property "Reference" "ST3"
-			(at 254 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Stand_off"
-			(at 254 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SparkFun-Hardware:Standoff"
-			(at 254 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 254 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "SparkFun_Default_KiCad_Setup"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "ST3")
 					(unit 1)
 				)
 			)

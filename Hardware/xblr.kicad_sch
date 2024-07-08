@@ -5644,7 +5644,7 @@
 			)
 		)
 	)
-	(global_label "XBLR_USB_DN"
+	(global_label "XBLR_USB_D-"
 		(shape input)
 		(at 142.24 54.61 180)
 		(fields_autoplaced yes)
@@ -5656,7 +5656,7 @@
 		)
 		(uuid "349baf08-aec9-4cb1-801d-5fe123666953")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.1315 54.61 0)
+			(at 125.8896 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5666,7 +5666,7 @@
 			)
 		)
 	)
-	(global_label "XBLR_USB_DN"
+	(global_label "XBLR_USB_D-"
 		(shape input)
 		(at 91.44 48.26 0)
 		(fields_autoplaced yes)
@@ -5678,7 +5678,7 @@
 		)
 		(uuid "36c0b299-b096-43ff-9d36-0a5882e43fb5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.5485 48.26 0)
+			(at 107.7904 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5820,7 +5820,7 @@
 			)
 		)
 	)
-	(global_label "XBLR_USB_DP"
+	(global_label "XBLR_USB_D+"
 		(shape input)
 		(at 91.44 45.72 0)
 		(fields_autoplaced yes)
@@ -5832,7 +5832,7 @@
 		)
 		(uuid "66f85c1a-3dd0-40ea-aece-2e6b344ddcc6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.488 45.72 0)
+			(at 107.7904 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6084,7 +6084,7 @@
 			)
 		)
 	)
-	(global_label "XBLR_USB_DP"
+	(global_label "XBLR_USB_D+"
 		(shape input)
 		(at 142.24 52.07 180)
 		(fields_autoplaced yes)
@@ -6096,7 +6096,7 @@
 		)
 		(uuid "d54088f6-b1be-4d6c-8992-a0a45afc6639")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.192 52.07 0)
+			(at 125.8896 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)

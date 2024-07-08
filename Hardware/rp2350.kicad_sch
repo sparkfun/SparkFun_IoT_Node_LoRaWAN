@@ -5881,6 +5881,206 @@
 				)
 			)
 		)
+		(symbol "SparkFun-Switch:SPST_Push_PTH_RA_h7.5mm"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PTH_RA_h7.5mm"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SparkFun-Switch:Push_PTH_RA_8-020_h7.5mm"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PROD_ID" "SWCH-13896"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfg Part#" "8-020 TS H = 7.5mm"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun Momentary push switch lever button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SPST_Push_PTH_RA_h7.5mm_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SPST_Push_PTH_RA_h7.5mm_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54) hide
+					(name "M1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "M1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54) hide
+					(name "M2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "M2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SparkFun-Switch:SPST_Push_SMD_4.6x2.8mm_h2.5mm"
 			(pin_numbers hide)
 			(pin_names
@@ -7951,6 +8151,28 @@
 		)
 		(uuid "ec3a5d29-7858-4018-9e82-bb99e98a0215")
 	)
+	(label "USB_D+"
+		(at 58.42 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb1f3496-0efa-41a4-95cc-1536d93897fb")
+	)
+	(label "USB_D-"
+		(at 58.42 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8d6e199-05d2-4aaa-ab00-489b43ea74b6")
+	)
 	(global_label "~{BOOT}"
 		(shape input)
 		(at 63.5 129.54 180)
@@ -7973,7 +8195,7 @@
 			)
 		)
 	)
-	(global_label "USB_DN"
+	(global_label "RP2350_USB_D-"
 		(shape input)
 		(at 107.95 48.26 0)
 		(fields_autoplaced yes)
@@ -7985,7 +8207,7 @@
 		)
 		(uuid "0ea6f307-3c3b-4344-9d3c-b77a0ef0665d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.3133 48.26 0)
+			(at 126.9008 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8611,7 +8833,7 @@
 			)
 		)
 	)
-	(global_label "USB_DN"
+	(global_label "RP2350_USB_D-"
 		(shape input)
 		(at 208.28 63.5 180)
 		(fields_autoplaced yes)
@@ -8623,7 +8845,7 @@
 		)
 		(uuid "b3ece8ea-da78-439d-aa22-81da07bb01d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.9167 63.5 0)
+			(at 189.3292 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8633,7 +8855,7 @@
 			)
 		)
 	)
-	(global_label "USB_DP"
+	(global_label "RP2350_USB_D+"
 		(shape input)
 		(at 208.28 60.96 180)
 		(fields_autoplaced yes)
@@ -8645,7 +8867,7 @@
 		)
 		(uuid "b4109615-4256-446c-914d-6b5e802515af")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.9772 60.96 0)
+			(at 189.3292 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8721,7 +8943,7 @@
 			)
 		)
 	)
-	(global_label "USB_DP"
+	(global_label "RP2350_USB_D+"
 		(shape input)
 		(at 107.95 45.72 0)
 		(fields_autoplaced yes)
@@ -8733,7 +8955,7 @@
 		)
 		(uuid "d296db70-79f1-4562-bbd0-bbc874343b72")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.2528 45.72 0)
+			(at 126.9008 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9099,86 +9321,6 @@
 			(project "SparkFun_IoT_Node_LoRaWAN"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/590da06b-12fb-4a03-9ce6-308c286b4365"
 					(reference "#PWR0106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Switch:SPST_Push_SMD_4.6x2.8mm_h2.5mm")
-		(at 35.56 137.16 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f264d6f-cd74-486f-be65-88926f0dcf84")
-		(property "Reference" "SW4"
-			(at 36.83 137.1599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SMD_4.6x2.8mm_h2.5mm"
-			(at 36.83 138.4299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SparkFun-Switch:Push_SMD_4.6x2.8mm"
-			(at 40.64 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 35.56 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" "SWCH-15606"
-			(at 43.18 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3e7255c9-e986-4181-87fe-997f871a7a14")
-		)
-		(pin "1"
-			(uuid "5f744018-8aaf-4d06-82fa-c0240c79afb3")
-		)
-		(instances
-			(project "SparkFun_IoT_Node_LoRaWAN"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/590da06b-12fb-4a03-9ce6-308c286b4365"
-					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -11879,6 +12021,101 @@
 			(project "SparkFun_IoT_Node_LoRaWAN"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/590da06b-12fb-4a03-9ce6-308c286b4365"
 					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Switch:SPST_Push_PTH_RA_h7.5mm")
+		(at 35.56 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fd737de-a4c5-4912-8cfb-47f9fd2910d7")
+		(property "Reference" "SW4"
+			(at 36.83 137.1599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PTH_RA_h7.5mm"
+			(at 36.83 138.4299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Switch:Push_PTH_RA_8-020_h7.5mm"
+			(at 40.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 35.56 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "SWCH-13896"
+			(at 43.18 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part#" "8-020 TS H = 7.5mm"
+			(at 48.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "M2"
+			(uuid "6ab38e23-570a-4220-925e-2833bd6637fd")
+		)
+		(pin "1"
+			(uuid "fa645e03-d953-47d0-a43e-dcdb5f526de3")
+		)
+		(pin "M1"
+			(uuid "c3d7041d-107e-401f-a901-3e6cdcc184bc")
+		)
+		(pin "2"
+			(uuid "50d5f237-6e85-4721-8391-3b7091bc55b9")
+		)
+		(instances
+			(project ""
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/590da06b-12fb-4a03-9ce6-308c286b4365"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
