@@ -4877,6 +4877,12 @@
 		(uuid "aed4624c-2ec8-4570-8722-cf85cea3ba0d")
 	)
 	(junction
+		(at 185.42 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0e3e6bd-87c1-468d-8c56-8813e55f69f4")
+	)
+	(junction
 		(at 71.12 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5206,6 +5212,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 53.34) (xy 185.42 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3362775b-71e5-4fc0-9144-0324bf7ed301")
+	)
+	(wire
+		(pts
 			(xy 127 149.86) (xy 124.46 149.86)
 		)
 		(stroke
@@ -5406,6 +5422,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 66.04) (xy 185.42 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bf789aa-079c-4133-8cb8-f8040c5e8224")
+	)
+	(wire
+		(pts
 			(xy 127 177.8) (xy 124.46 177.8)
 		)
 		(stroke
@@ -5443,6 +5469,16 @@
 			(type default)
 		)
 		(uuid "61b7a129-8da4-407b-9745-94a0ecd78b40")
+	)
+	(wire
+		(pts
+			(xy 185.42 43.18) (xy 165.1 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "673ccee7-0e8a-4e94-ad4e-18b0629d6a12")
 	)
 	(wire
 		(pts
@@ -5546,6 +5582,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 55.88) (xy 185.42 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "935ebe6b-e164-4494-8bfa-36fec938272c")
+	)
+	(wire
+		(pts
 			(xy 78.74 142.24) (xy 81.28 142.24)
 		)
 		(stroke
@@ -5553,6 +5599,16 @@
 			(type default)
 		)
 		(uuid "94792aef-b886-4f92-905b-d52045036088")
+	)
+	(wire
+		(pts
+			(xy 185.42 45.72) (xy 185.42 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99db563f-2a59-4f81-b012-6eb7b1a3f7ef")
 	)
 	(wire
 		(pts
@@ -5776,16 +5832,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 43.18) (xy 165.1 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d57e3c98-e91f-4e9e-ad87-f66c1b209dc0")
-	)
-	(wire
-		(pts
 			(xy 81.28 180.34) (xy 78.74 180.34)
 		)
 		(stroke
@@ -5843,6 +5889,16 @@
 			(type default)
 		)
 		(uuid "eaff9912-80bb-4437-bc0a-67379e22fe94")
+	)
+	(wire
+		(pts
+			(xy 187.96 55.88) (xy 185.42 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee6f2895-cbbe-4350-9381-7af9773dc04c")
 	)
 	(wire
 		(pts
@@ -6506,6 +6562,28 @@
 			)
 		)
 	)
+	(global_label "XBLR_USB_TX"
+		(shape input)
+		(at 187.96 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "933a9341-1f2a-4e80-b2a6-08b522db1687")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.6451 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "XBLR_SWDIO"
 		(shape input)
 		(at 241.3 138.43 0)
@@ -6541,28 +6619,6 @@
 		(uuid "a4a17eb6-1939-4a0e-b7c9-957ce80f27a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 138.8752 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "XBLR_USB_TX"
-		(shape input)
-		(at 167.64 43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a4bd9751-f5d0-4ca1-906e-4ac0fee3d34a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.3251 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8062,6 +8118,85 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Resistor:10k_0603")
+		(at 185.42 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "606167a2-7a39-4bd8-b77a-faf70678a474")
+		(property "Reference" "R30"
+			(at 187.96 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 187.96 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SparkFun-Resistor:R_0603_1608Metric"
+			(at 189.738 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 194.31 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 196.85 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "RES-00824"
+			(at 191.77 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30ba7205-510e-49a7-8073-c77d747bab62")
+		)
+		(pin "2"
+			(uuid "8979711a-df11-444b-ba79-78536d5e3d6c")
+		)
+		(instances
+			(project "SparkFun_IoT_Node_LoRaWAN"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/1b24c23d-c299-46bd-85a2-56e1a820a807"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Resistor:5.1k_0603")
 		(at 48.26 64.77 90)
 		(unit 1)
@@ -8135,6 +8270,85 @@
 			(project "SparkFun_IoT_Node_LoRaWAN"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/1b24c23d-c299-46bd-85a2-56e1a820a807"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Resistor:5.1k_0603")
+		(at 185.42 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6341e4eb-fffa-4517-9b22-5c942c9273ed")
+		(property "Reference" "R29"
+			(at 187.96 48.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 187.96 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SparkFun-Resistor:R_0603_1608Metric"
+			(at 189.738 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 194.31 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 196.85 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "RES-12083"
+			(at 192.024 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb609e39-7d78-4b36-8cb5-fd9a2668d4b1")
+		)
+		(pin "2"
+			(uuid "852c64fc-d5d4-43ac-8395-16a78bee4722")
+		)
+		(instances
+			(project "SparkFun_IoT_Node_LoRaWAN"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/1b24c23d-c299-46bd-85a2-56e1a820a807"
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -8992,6 +9206,73 @@
 			(project "SparkFun_IoT_Node_LoRaWAN"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/1b24c23d-c299-46bd-85a2-56e1a820a807"
 					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:GND")
+		(at 185.42 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a234c590-6f5a-4ff8-84fc-283531250280")
+		(property "Reference" "#PWR0133"
+			(at 185.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 72.39 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f5d46e7-eda0-42a6-8af3-947a7e13c27f")
+		)
+		(instances
+			(project "SparkFun_IoT_Node_LoRaWAN"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a/1b24c23d-c299-46bd-85a2-56e1a820a807"
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
