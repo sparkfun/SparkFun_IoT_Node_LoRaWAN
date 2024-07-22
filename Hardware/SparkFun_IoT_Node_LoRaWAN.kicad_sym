@@ -59,6 +59,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_keywords" "SparkFun Raspberry Pi RPi RP2350 microcontroller"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_fp_filters" "ESP32?WROOM?32*"
 			(at 0 0 0)
 			(effects
@@ -82,7 +91,7 @@
 				(number "1"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -352,7 +361,7 @@
 				(number "23"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -756,7 +765,7 @@
 			(pin power_in line
 				(at -17.78 30.48 0)
 				(length 2.54)
-				(name "ADC_IOVDD"
+				(name "ADC_AVDD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1232,6 +1241,15 @@
 		)
 		(property "PROD_ID" "WRL-22629"
 			(at 0 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "SparkFun Digi XBee XBLR LR LoRa LoRaWAN RF"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
