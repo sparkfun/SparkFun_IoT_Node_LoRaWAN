@@ -8256,6 +8256,16 @@
 		)
 		(uuid "1b20a68c-e6c5-4591-8d37-2b0b1d07fc4c")
 	)
+	(text "Charge current:\nI_CHG = 1000 / R_PROG\nR_PROG = 2.2k\nI_CHG = 455mA"
+		(exclude_from_sim no)
+		(at 241.3 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "539723b2-5376-4895-8eba-14c7118e0ef5")
+	)
 	(text "Cut CHG trace to\ndisable charge LED"
 		(exclude_from_sim no)
 		(at 209.55 83.82 0)
@@ -8376,9 +8386,9 @@
 		)
 		(uuid "ef35f8c8-69f5-4e31-a570-cd0d92292da2")
 	)
-	(text "Max input voltage: 6V"
+	(text "Max input voltage: 5.5V\nMax curret output: 600mA"
 		(exclude_from_sim no)
-		(at 93.98 52.07 0)
+		(at 91.44 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)

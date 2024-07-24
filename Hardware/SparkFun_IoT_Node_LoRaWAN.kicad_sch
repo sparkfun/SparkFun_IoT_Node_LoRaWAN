@@ -15423,10 +15423,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "09dc8b39-f8fe-496c-8c99-9ad26263f1d5")
 		(property "Reference" "D3"
-			(at 309.88 62.2299 0)
+			(at 313.69 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15435,7 +15434,7 @@
 			)
 		)
 		(property "Value" "DT1042-04SO"
-			(at 309.88 64.7699 0)
+			(at 313.69 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24293,10 +24292,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d83bb999-c08c-4d01-9996-2f20d4d63613")
 		(property "Reference" "D1"
-			(at 91.44 62.2299 0)
+			(at 95.25 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24305,7 +24303,7 @@
 			)
 		)
 		(property "Value" "DT1042-04SO"
-			(at 91.44 64.7699 0)
+			(at 95.25 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
