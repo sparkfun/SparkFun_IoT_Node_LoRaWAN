@@ -12682,6 +12682,16 @@
 		)
 		(uuid "9c73b881-f314-4cea-8f42-22a5bc26e5cb")
 	)
+	(text "RC filter cutoff\nfrequency: 7.2kHz"
+		(exclude_from_sim no)
+		(at 26.67 257.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "abf70622-3fbf-4547-9370-24d48c305743")
+	)
 	(text "Cut XB_SHLD trace\nto disconnect USB\nshield from GND"
 		(exclude_from_sim no)
 		(at 236.22 80.01 0)
