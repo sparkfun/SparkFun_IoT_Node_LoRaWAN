@@ -8248,7 +8248,7 @@
 	)
 	(text "Cut LP trace to make\nuSD card and RGB LED\npowered off by default"
 		(exclude_from_sim no)
-		(at 189.23 156.21 0)
+		(at 195.58 153.67 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -8268,7 +8268,7 @@
 	)
 	(text "Cut CHG trace to\ndisable charge LED"
 		(exclude_from_sim no)
-		(at 209.55 83.82 0)
+		(at 209.55 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13208,22 +13208,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "8a7ee21e-b0bc-4608-8890-a8c5fb40c774")
 		(property "Reference" "JP6"
-			(at 208.28 219.71 0)
+			(at 213.36 218.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Value" "PWR"
-			(at 213.36 219.71 0)
+			(at 213.36 220.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "SparkFun-Jumper:Jumper_2_NC_Trace"
@@ -14929,16 +14931,15 @@
 		(fields_autoplaced yes)
 		(uuid "b774a13d-8d9b-4e16-b966-5bcd4653820a")
 		(property "Reference" "JP4"
-			(at 179.07 149.86 0)
+			(at 179.07 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "LP"
-			(at 179.07 149.86 0)
+			(at 179.07 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17152,11 +17153,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "I2C"
-			(at 360.68 163.83 0)
+			(at 360.68 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17278,21 +17278,18 @@
 	(symbol
 		(lib_id "SparkFun-Jumper:SolderJumper_2_Bridged")
 		(at 209.55 76.2 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fadbf764-8061-45c6-9e1b-ef1f784bf375")
 		(property "Reference" "JP5"
-			(at 209.55 73.66 0)
+			(at 209.55 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "CHG"
@@ -17304,7 +17301,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Jumper:Jumper_2_NC_Trace"
-			(at 209.296 71.628 0)
+			(at 209.296 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17313,7 +17310,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 68.58 0)
+			(at 209.55 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)

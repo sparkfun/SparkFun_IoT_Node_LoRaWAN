@@ -12664,7 +12664,7 @@
 	)
 	(text "Cut SHLD trace\nto disconnect USB\nshield from GND"
 		(exclude_from_sim no)
-		(at 26.67 80.01 0)
+		(at 24.13 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12684,7 +12684,7 @@
 	)
 	(text "Cut XB_SHLD trace\nto disconnect USB\nshield from GND"
 		(exclude_from_sim no)
-		(at 238.76 80.01 0)
+		(at 236.22 80.01 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -17683,12 +17683,11 @@
 		(fields_autoplaced yes)
 		(uuid "3f5d13a7-6fa2-4ee0-952c-dfaaf6e6b769")
 		(property "Reference" "JP2"
-			(at 247.65 242.57 0)
+			(at 247.65 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "XB_MEAS"
@@ -20579,12 +20578,11 @@
 		(dnp no)
 		(uuid "8b0ffffd-d9b9-47a4-ae6d-2cab8cea8717")
 		(property "Reference" "JP1"
-			(at 36.83 68.58 0)
+			(at 36.83 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "SHLD"
@@ -23517,19 +23515,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c3507e66-d3c4-4ac2-b478-d8178bdb2c25")
 		(property "Reference" "JP3"
-			(at 250.19 68.58 0)
+			(at 250.19 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "XB_SHLD"
-			(at 250.19 73.66 0)
+			(at 248.92 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
