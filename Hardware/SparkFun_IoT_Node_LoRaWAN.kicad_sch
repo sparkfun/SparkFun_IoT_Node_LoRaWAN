@@ -12581,7 +12581,7 @@
 		)
 		(uuid "ffb49f83-14e9-45fe-a0d9-dddcfc7bc16f")
 	)
-	(text "Differential pair calculation:\nConducto Width: 0.2326mm\nConductor Spacing 0.127mm\nHeight: 0.2104mm\nDielectric Constant: 4.6\nImpedance: 89.999 Ohms\nComputed with Saturn PCB Toolkit"
+	(text "Differential pair calculation:\nConductor Width: 0.2326mm\nConductor Spacing 0.127mm\nHeight: 0.2104mm\nDielectric Constant: 4.6\nImpedance: 89.999 Ohms\nComputed with Saturn PCB Toolkit"
 		(exclude_from_sim no)
 		(at 92.71 35.56 0)
 		(effects
@@ -12702,7 +12702,7 @@
 		)
 		(uuid "cebc33a3-9028-4f14-bc97-5b766fb0210b")
 	)
-	(text "Differential pair calculation:\nConducto Width: 0.2326mm\nConductor Spacing 0.127mm\nHeight: 0.2104mm\nDielectric Constant: 4.6\nImpedance: 89.999 Ohms\nComputed with Saturn PCB Toolkit"
+	(text "Differential pair calculation:\nConductor Width: 0.2326mm\nConductor Spacing 0.127mm\nHeight: 0.2104mm\nDielectric Constant: 4.6\nImpedance: 89.999 Ohms\nComputed with Saturn PCB Toolkit"
 		(exclude_from_sim no)
 		(at 307.34 35.56 0)
 		(effects
@@ -23518,6 +23518,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "c3507e66-d3c4-4ac2-b478-d8178bdb2c25")
 		(property "Reference" "JP3"
 			(at 250.19 68.58 0)
