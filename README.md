@@ -1,9 +1,9 @@
 SparkFun IoT Node - LoRaWAN
 ========================================
 
-[![SparkFun IoT Node - LoRaWAN](URL for picture of part)](https://sparkle.sparkfun.com/sparkle/parts/26883)
+[![SparkFun IoT Node - LoRaWAN](URL for picture of part)](https://sparkle.sparkfun.com/sparkle/parts/26060)
 
-[*SparkFun IoT Node - LoRaWAN (26883)*](https://sparkle.sparkfun.com/sparkle/parts/26883)
+[*SparkFun IoT Node - LoRaWAN (WRL-26060)*](https://sparkle.sparkfun.com/sparkle/parts/26060)
 
 Something Dryw is making. It'll be awesome. Nuff said. 
 
