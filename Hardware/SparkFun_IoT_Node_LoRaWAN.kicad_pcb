@@ -51643,11 +51643,11 @@
 		(layer "Dwgs.User")
 		(uuid "7b4db072-9fb4-4e61-b3bb-64be95d3f630")
 		(pts
-			(xy 100 86.25) (xy 100 100)
+			(xy 100 86.75) (xy 100 100)
 		)
 		(height 52.5)
-		(gr_text "13.75 mm"
-			(at 46.35 93.125 90)
+		(gr_text "13.25 mm"
+			(at 46.35 93.375 90)
 			(layer "Dwgs.User")
 			(uuid "7b4db072-9fb4-4e61-b3bb-64be95d3f630")
 			(effects
