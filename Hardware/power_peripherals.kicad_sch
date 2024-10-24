@@ -6,8 +6,8 @@
 	(paper "USLedger")
 	(title_block
 		(title "SparkFun IoT Node - LoRaWAN")
-		(date "2024-07-22")
-		(rev "v02")
+		(date "2024-10-24")
+		(rev "v10")
 		(company "SparkFun")
 		(comment 1 "Designed by: Dryw Wade")
 	)
