@@ -2940,6 +2940,101 @@
 				)
 			)
 		)
+		(symbol "SparkFun-Connector:TestPoint_1.0mm"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 5.08 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1.0mm"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Test Point"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_1.0mm_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1.0mm_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SparkFun-Connector:USB_C_Receptacle"
 			(pin_names
 				(offset 1.016)
@@ -9539,6 +9634,12 @@
 		(uuid "464a9e1b-ca0a-4f99-9c83-0b3ef230ee48")
 	)
 	(junction
+		(at 386.08 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5490da37-7f63-4528-b86d-78d12194704f")
+	)
+	(junction
 		(at 312.42 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9563,10 +9664,22 @@
 		(uuid "65fcabeb-0866-446b-bdc9-4b6161e31b48")
 	)
 	(junction
+		(at 71.12 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b7c984a-b65a-495f-8362-30f616188dd1")
+	)
+	(junction
 		(at 294.64 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74e53a3b-fb91-46f6-9af2-035c99893153")
+	)
+	(junction
+		(at 388.62 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74f74c99-2e75-4e9c-9636-cca8bb090c35")
 	)
 	(junction
 		(at 271.78 40.64)
@@ -9585,6 +9698,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80d448cd-103d-4867-a6da-7bd1436ba9ad")
+	)
+	(junction
+		(at 391.16 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84e76588-1d39-4c30-8aa7-2c2923855c81")
 	)
 	(junction
 		(at 58.42 119.38)
@@ -9617,6 +9736,18 @@
 		(uuid "a51bb9d7-b2d8-4e77-9c36-7335a2997a3f")
 	)
 	(junction
+		(at 383.54 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aecca5e0-3e06-4662-8d19-cb2adfe22a31")
+	)
+	(junction
+		(at 289.56 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0f68bcb-f61f-4a5e-8a35-d09b5433c32a")
+	)
+	(junction
 		(at 71.12 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9627,6 +9758,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8754a2c-482f-4f92-b181-ffbcd95848e2")
+	)
+	(junction
+		(at 287.02 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8f62035-b359-4285-896f-741378360ae0")
 	)
 	(junction
 		(at 185.42 134.62)
@@ -9663,6 +9800,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3879d78-b8f3-4e0e-b264-54ef6f17f3f7")
+	)
+	(junction
+		(at 68.58 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f97eeaad-442f-4029-8ed7-7641f086eb40")
 	)
 	(junction
 		(at 63.5 111.76)
@@ -9709,6 +9852,16 @@
 	(no_connect
 		(at 289.56 124.46)
 		(uuid "ef8c856f-6cdc-4176-bc0c-679f1526a27d")
+	)
+	(wire
+		(pts
+			(xy 287.02 52.07) (xy 289.56 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00090c27-21e4-4a7b-9803-3fa363084ec3")
 	)
 	(wire
 		(pts
@@ -9862,6 +10015,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 48.26) (xy 289.56 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e4ae5c8-0f31-4c0b-bc6e-40d4a0261051")
+	)
+	(wire
+		(pts
 			(xy 185.42 121.92) (xy 185.42 124.46)
 		)
 		(stroke
@@ -10002,7 +10165,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 48.26) (xy 391.16 48.26)
+			(xy 381 48.26) (xy 391.16 48.26)
 		)
 		(stroke
 			(width 0)
@@ -10019,6 +10182,16 @@
 			(type default)
 		)
 		(uuid "1a61f315-7a1c-4b16-883a-704243c35ca3")
+	)
+	(wire
+		(pts
+			(xy 383.54 55.88) (xy 381 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b6ef605-a1bc-4431-9233-0f2faa81b246")
 	)
 	(wire
 		(pts
@@ -10089,6 +10262,16 @@
 			(type default)
 		)
 		(uuid "240f36ff-1bb4-484b-af67-9c875159d391")
+	)
+	(wire
+		(pts
+			(xy 386.08 45.72) (xy 386.08 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2422c02e-1eae-42f9-a34c-1edc15529b5d")
 	)
 	(wire
 		(pts
@@ -10232,7 +10415,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 52.07) (xy 289.56 52.07)
+			(xy 269.24 52.07) (xy 287.02 52.07)
 		)
 		(stroke
 			(width 0)
@@ -10372,6 +10555,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 48.26) (xy 71.12 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ebcd070-4277-4860-a329-1af22935ea64")
+	)
+	(wire
+		(pts
 			(xy 289.56 210.82) (xy 287.02 210.82)
 		)
 		(stroke
@@ -10442,7 +10635,7 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 50.8) (xy 388.62 50.8)
+			(xy 393.7 50.8) (xy 388.62 50.8)
 		)
 		(stroke
 			(width 0)
@@ -10492,6 +10685,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 48.26) (xy 68.58 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b0db58c-e6f5-4299-9ae5-5e93e1343bfc")
+	)
+	(wire
+		(pts
 			(xy 160.02 233.68) (xy 160.02 236.22)
 		)
 		(stroke
@@ -10519,6 +10722,16 @@
 			(type default)
 		)
 		(uuid "4d8182ee-332c-4062-ab5d-85690690f4ef")
+	)
+	(wire
+		(pts
+			(xy 71.12 49.53) (xy 88.9 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4da527ad-fd18-4e66-960f-52928fbdd561")
 	)
 	(wire
 		(pts
@@ -10592,7 +10805,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 52.07) (xy 71.12 52.07)
+			(xy 55.88 52.07) (xy 68.58 52.07)
 		)
 		(stroke
 			(width 0)
@@ -10629,6 +10842,16 @@
 			(type default)
 		)
 		(uuid "56bb6540-5fdd-4c8c-a7f9-be227450f25a")
+	)
+	(wire
+		(pts
+			(xy 388.62 45.72) (xy 388.62 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "574af4d9-be8d-44a5-b06a-e581a46165d9")
 	)
 	(wire
 		(pts
@@ -10732,6 +10955,26 @@
 	)
 	(wire
 		(pts
+			(xy 386.08 53.34) (xy 381 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cfcb09c-76ea-4e24-a45b-95564f50db8a")
+	)
+	(wire
+		(pts
+			(xy 391.16 45.72) (xy 391.16 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d1b653d-2103-4627-a160-fd9b163f6e73")
+	)
+	(wire
+		(pts
 			(xy 266.7 259.08) (xy 266.7 256.54)
 		)
 		(stroke
@@ -10742,7 +10985,7 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 53.34) (xy 388.62 53.34)
+			(xy 393.7 53.34) (xy 386.08 53.34)
 		)
 		(stroke
 			(width 0)
@@ -10752,7 +10995,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 55.88) (xy 365.76 58.42)
+			(xy 358.14 55.88) (xy 358.14 58.42)
 		)
 		(stroke
 			(width 0)
@@ -10902,6 +11145,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 48.26) (xy 287.02 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68e024fd-4acc-4169-8c2b-0be443696b4f")
+	)
+	(wire
+		(pts
 			(xy 55.88 40.64) (xy 58.42 40.64)
 		)
 		(stroke
@@ -10979,6 +11232,16 @@
 			(type default)
 		)
 		(uuid "6d373c18-4466-46a2-9ff5-ee75c1c6809a")
+	)
+	(wire
+		(pts
+			(xy 383.54 45.72) (xy 383.54 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6da1c097-c3ba-49de-8742-faac5677769b")
 	)
 	(wire
 		(pts
@@ -11132,7 +11395,7 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 55.88) (xy 388.62 55.88)
+			(xy 393.7 55.88) (xy 383.54 55.88)
 		)
 		(stroke
 			(width 0)
@@ -11269,6 +11532,16 @@
 			(type default)
 		)
 		(uuid "851e5255-d482-47ef-8f55-069c553c6747")
+	)
+	(wire
+		(pts
+			(xy 391.16 48.26) (xy 393.7 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86153658-30aa-499d-a1ba-257c79ed15ff")
 	)
 	(wire
 		(pts
@@ -11452,7 +11725,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 49.53) (xy 307.34 49.53)
+			(xy 269.24 49.53) (xy 289.56 49.53)
 		)
 		(stroke
 			(width 0)
@@ -11592,7 +11865,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 55.88) (xy 365.76 55.88)
+			(xy 360.68 55.88) (xy 358.14 55.88)
 		)
 		(stroke
 			(width 0)
@@ -11902,7 +12175,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 49.53) (xy 88.9 49.53)
+			(xy 55.88 49.53) (xy 71.12 49.53)
 		)
 		(stroke
 			(width 0)
@@ -11942,7 +12215,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 48.26) (xy 365.76 45.72)
+			(xy 358.14 48.26) (xy 358.14 45.72)
 		)
 		(stroke
 			(width 0)
@@ -12169,6 +12442,16 @@
 			(type default)
 		)
 		(uuid "d794d6d5-ae3d-488a-834f-4d49207ecd3b")
+	)
+	(wire
+		(pts
+			(xy 388.62 50.8) (xy 381 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7aee00c-4629-467a-8b06-c0655194d278")
 	)
 	(wire
 		(pts
@@ -12572,13 +12855,23 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 48.26) (xy 368.3 48.26)
+			(xy 358.14 48.26) (xy 360.68 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fef64cf2-c5ac-4f24-8380-2770d8451c8b")
+	)
+	(wire
+		(pts
+			(xy 68.58 52.07) (xy 71.12 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff23c2cd-b135-40e6-9cf7-79f12acc5e46")
 	)
 	(wire
 		(pts
@@ -12589,6 +12882,16 @@
 			(type default)
 		)
 		(uuid "ffb49f83-14e9-45fe-a0d9-dddcfc7bc16f")
+	)
+	(wire
+		(pts
+			(xy 289.56 49.53) (xy 307.34 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffe26a55-e08b-4b84-bfdc-89fed79dbe33")
 	)
 	(text "Differential pair calculation:\nConductor Width: 0.2326mm\nConductor Spacing 0.127mm\nHeight: 0.2104mm\nDielectric Constant: 4.6\nImpedance: 89.999 Ohms\nComputed with Saturn PCB Toolkit"
 		(exclude_from_sim no)
@@ -12786,7 +13089,7 @@
 	)
 	(global_label "XBLR_SWDIO"
 		(shape input)
-		(at 391.16 50.8 0)
+		(at 393.7 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12796,7 +13099,7 @@
 		)
 		(uuid "00b9627e-f213-4004-acdc-429d3919fc6e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 405.7566 50.8 0)
+			(at 408.2966 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13666,7 +13969,7 @@
 	)
 	(global_label "XBLR_~{RESET}"
 		(shape input)
-		(at 391.16 48.26 0)
+		(at 393.7 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13676,7 +13979,7 @@
 		)
 		(uuid "7397a5c4-35d0-46b9-b9d9-30bf74006ee4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 405.6355 48.26 0)
+			(at 408.1755 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14128,7 +14431,7 @@
 	)
 	(global_label "XBLR_SWO"
 		(shape input)
-		(at 391.16 55.88 0)
+		(at 393.7 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14138,7 +14441,7 @@
 		)
 		(uuid "a025cbea-3a0c-4ac9-89d3-b81e353d5d9c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 403.8818 55.88 0)
+			(at 406.4218 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14568,7 +14871,7 @@
 	)
 	(global_label "XBLR_SWCLK"
 		(shape input)
-		(at 391.16 53.34 0)
+		(at 393.7 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14578,7 +14881,7 @@
 		)
 		(uuid "d9755328-cbb1-460c-9ec9-6d40dd8948f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 406.1194 53.34 0)
+			(at 408.6594 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15368,6 +15671,72 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Connector:TestPoint_1.0mm")
+		(at 388.62 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07b7f0e9-315c-48f4-95f3-542635760893")
+		(property "Reference" "TP7"
+			(at 388.62 39.37 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.0mm"
+			(at 388.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
+			(at 388.62 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 388.62 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 388.62 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a678b359-365d-454b-bcf0-43a359b756e9")
+		)
+		(instances
+			(project "SparkFun_IoT_Node_LoRaWAN"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-PowerSymbol:1.1V")
 		(at 109.22 233.68 0)
 		(unit 1)
@@ -15519,6 +15888,72 @@
 			(project "SparkFun_IoT_Node_LoRaWAN"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Connector:TestPoint_1.0mm")
+		(at 391.16 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a3556a3-4b51-4db5-8a06-9114b34d08b0")
+		(property "Reference" "TP8"
+			(at 391.16 39.37 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.0mm"
+			(at 391.16 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
+			(at 391.16 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 391.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 391.16 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ee643f5-999c-4fbd-9918-641df2e786b2")
+		)
+		(instances
+			(project "SparkFun_IoT_Node_LoRaWAN"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -16152,6 +16587,72 @@
 			(project "SparkFun_IoT_Node_LoRaWAN"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Connector:TestPoint_1.0mm")
+		(at 287.02 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a22bf18-973f-43ad-a14f-a14626ebf828")
+		(property "Reference" "TP9"
+			(at 287.02 41.91 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.0mm"
+			(at 287.02 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
+			(at 287.02 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 287.02 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 287.02 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c2e144f-7e69-417c-b68d-89fce61318ee")
+		)
+		(instances
+			(project "SparkFun_IoT_Node_LoRaWAN"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -18588,7 +19089,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Connector:Debug-Cortex-2x5_P1.27mm-SMD-Unshrouded")
-		(at 378.46 53.34 0)
+		(at 370.84 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18597,7 +19098,7 @@
 		(fields_autoplaced yes)
 		(uuid "63aa4242-e1ad-40ae-88e0-f1abf6c098b1")
 		(property "Reference" "J4"
-			(at 378.46 40.64 0)
+			(at 370.84 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18605,7 +19106,7 @@
 			)
 		)
 		(property "Value" "SWD"
-			(at 378.46 43.18 0)
+			(at 370.84 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18613,7 +19114,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Connector:2x5_1.27mm_SMD_Unshrouded"
-			(at 378.46 62.23 0)
+			(at 370.84 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18622,7 +19123,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.sparkfun.com/assets/f/7/4/1/5/21200.pdf"
-			(at 378.46 64.77 0)
+			(at 370.84 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18631,7 +19132,7 @@
 			)
 		)
 		(property "Description" "Cortex Debug Connector 10 pin"
-			(at 378.46 67.31 0)
+			(at 370.84 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18640,7 +19141,7 @@
 			)
 		)
 		(property "PROD_ID" "CONN-15353"
-			(at 378.46 69.85 0)
+			(at 370.84 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18676,6 +19177,72 @@
 			(project "SparkFun_IoT_Node_LoRaWAN"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Connector:TestPoint_1.0mm")
+		(at 383.54 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63e9800d-038e-4022-830f-3de86053ccae")
+		(property "Reference" "TP5"
+			(at 383.54 39.37 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.0mm"
+			(at 383.54 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
+			(at 383.54 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 383.54 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 383.54 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d091dc8-7a96-448a-89d4-93fa972aa910")
+		)
+		(instances
+			(project "SparkFun_IoT_Node_LoRaWAN"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -20456,6 +21023,72 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Connector:TestPoint_1.0mm")
+		(at 71.12 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8828d274-c176-48fa-be18-048bc154d7c6")
+		(property "Reference" "TP4"
+			(at 71.12 41.91 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.0mm"
+			(at 71.12 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
+			(at 71.12 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 71.12 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79d5c0a3-c2e1-4e5a-b565-5b1960bd1ca0")
+		)
+		(instances
+			(project "SparkFun_IoT_Node_LoRaWAN"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
 		(at 152.4 147.32 0)
 		(unit 1)
@@ -20869,7 +21502,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V")
-		(at 365.76 45.72 0)
+		(at 358.14 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20878,7 +21511,7 @@
 		(fields_autoplaced yes)
 		(uuid "8fe366fb-fe26-4784-affd-24299970c2ba")
 		(property "Reference" "#PWR075"
-			(at 365.76 49.53 0)
+			(at 358.14 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20887,7 +21520,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 365.76 41.91 0)
+			(at 358.14 41.91 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -20896,7 +21529,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 365.76 45.72 0)
+			(at 358.14 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20905,7 +21538,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 365.76 45.72 0)
+			(at 358.14 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20914,7 +21547,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 365.76 45.72 0)
+			(at 358.14 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21160,6 +21793,72 @@
 			(project "SparkFun_IoT_Node_LoRaWAN"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Connector:TestPoint_1.0mm")
+		(at 68.58 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9434cb53-35e5-4475-9440-707922805744")
+		(property "Reference" "TP3"
+			(at 68.58 41.91 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.0mm"
+			(at 68.58 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
+			(at 68.58 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 68.58 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c7b1c1d-05ae-4c91-9f69-b68b8fde99ff")
+		)
+		(instances
+			(project ""
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -22640,6 +23339,72 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Connector:TestPoint_1.0mm")
+		(at 386.08 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b118c014-3e80-4e57-b434-aa05e472b953")
+		(property "Reference" "TP6"
+			(at 386.08 39.37 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.0mm"
+			(at 386.08 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
+			(at 386.08 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 386.08 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 386.08 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69fe2c99-46ed-45b1-b3ba-924f3842bcda")
+		)
+		(instances
+			(project "SparkFun_IoT_Node_LoRaWAN"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Aesthetic:SparkFun_Logo")
 		(at 365.76 231.14 0)
 		(unit 1)
@@ -23825,6 +24590,72 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Connector:TestPoint_1.0mm")
+		(at 289.56 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c80eb31f-b2f7-4bc8-bba8-64b287a8d77c")
+		(property "Reference" "TP10"
+			(at 289.56 41.91 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.0mm"
+			(at 289.56 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
+			(at 289.56 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 289.56 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 289.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0623fdb-cea6-4835-9af6-b2af4b20e02c")
+		)
+		(instances
+			(project "SparkFun_IoT_Node_LoRaWAN"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Resistor:5.1k_0603")
 		(at 309.88 120.65 90)
 		(unit 1)
@@ -24234,7 +25065,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
-		(at 365.76 58.42 0)
+		(at 358.14 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24243,7 +25074,7 @@
 		(fields_autoplaced yes)
 		(uuid "d789943c-2505-430b-b764-9643eb48aef1")
 		(property "Reference" "#PWR076"
-			(at 365.76 64.77 0)
+			(at 358.14 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24252,7 +25083,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 365.76 62.23 0)
+			(at 358.14 62.23 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -24261,7 +25092,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 365.76 58.42 0)
+			(at 358.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24270,7 +25101,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 365.76 58.42 0)
+			(at 358.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24279,7 +25110,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 365.76 58.42 0)
+			(at 358.14 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
