@@ -582,4 +582,15 @@
 			)
 		)
 	)
+	(model "${KIPRJMOD}/SparkFun_IoT_Node_LoRaWAN_3D_Models/XBLR_UFL.step"
+		(offset
+			(xyz -6.77 -9.65 0.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
