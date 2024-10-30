@@ -33027,6 +33027,7 @@
 		(path "/63aa4242-e1ad-40ae-88e0-f1abf6c098b1")
 		(sheetname "Root")
 		(sheetfile "SparkFun_IoT_Node_LoRaWAN.kicad_sch")
+		(attr dnp)
 		(fp_line
 			(start -3.26 -1.715)
 			(end -3.26 1.715)
