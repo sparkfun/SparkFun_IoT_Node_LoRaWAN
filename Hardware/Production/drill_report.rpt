@@ -1,0 +1,29 @@
+Drill report for SparkFun_IoT_Node_LoRaWAN_panelized.kicad_pcb
+Created on 2024-11-04T11:07:50-0700
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'SparkFun_IoT_Node_LoRaWAN_panelized.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (1120 holes)
+    T2  0.600mm  0.0236"  (32 holes)  (with 32 slots)
+    T3  1.016mm  0.0400"  (212 holes)
+
+    Total plated holes count 1364
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+    T4  0.650mm  0.0256"  (16 holes)
+    T5  0.850mm  0.0335"  (8 holes)
+    T6  3.100mm  0.1220"  (16 holes)
+
+    Total unplated holes count 40

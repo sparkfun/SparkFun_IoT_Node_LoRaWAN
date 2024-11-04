@@ -1,0 +1,13 @@
+2024-11-04 11:03:50,167 - panelizer_logger - INFO - Running Panelizer
+2024-11-04 11:03:50,174 - panelizer_logger - INFO - ['--panelx', '139.700000', '--panely', '190.500000', '--smaller', '--vscorelayer', 'User.1', '--vscoretextlayer', 'User.1', '--gapx', '0.000000', '--gapy', '5.080000', '--hrail', '6.35', '--vrail', '6.35', '--fiducialslr']
+2024-11-04 11:03:50,177 - panelizer_logger - INFO - PANELIZER START: 2024-11-04T11:03:50.177549
+2024-11-04 11:03:58,536 - panelizer_logger - INFO - 
+START: 2024-11-04T11:03:50.177549
+Board saved by user.
+Zones filled by user.
+
+Board: C:/Users/Dryw/Documents/GitHub/SparkFun_IoT_Node_LoRaWAN/Hardware\Production\SparkFun_IoT_Node_LoRaWAN_panelized.kicad_pcb
+Board dimensions: 59.00 x 79.50 mm.
+You can fit 2 x 2 boards on the panel.
+
+2024-11-04 11:04:02,041 - panelizer_logger - INFO - Panelizer complete
