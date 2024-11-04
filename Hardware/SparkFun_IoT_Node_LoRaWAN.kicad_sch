@@ -6,7 +6,7 @@
 	(paper "USLedger")
 	(title_block
 		(title "SparkFun IoT Node - LoRaWAN")
-		(date "2024-10-24")
+		(date "2024-11-04")
 		(rev "v10")
 		(company "SparkFun")
 		(comment 1 "Designed by: Dryw Wade")
@@ -2443,6 +2443,15 @@
 					(font
 						(size 1.27 1.27)
 					)
+				)
+			)
+			(property "ki_keywords" "SparkFun"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
@@ -25628,7 +25637,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 54.61 127 0)
+			(at 54.61 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)

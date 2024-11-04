@@ -6,7 +6,7 @@
 	(paper "USLedger")
 	(title_block
 		(title "SparkFun IoT Node - LoRaWAN")
-		(date "2024-10-24")
+		(date "2024-11-04")
 		(rev "v10")
 		(company "SparkFun")
 		(comment 1 "Designed by: Dryw Wade")
@@ -8257,6 +8257,16 @@
 			)
 		)
 		(uuid "1b20a68c-e6c5-4591-8d37-2b0b1d07fc4c")
+	)
+	(text "I2C Address: 0x36"
+		(exclude_from_sim no)
+		(at 368.3 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4d5b1578-580c-4462-9f38-86b5501fbfd9")
 	)
 	(text "Charge current:\nI_CHG = 1000 / R_PROG\nR_PROG = 2.2k\nI_CHG = 455mA"
 		(exclude_from_sim no)
