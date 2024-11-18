@@ -4953,14 +4953,11 @@
 			)
 		)
 		(symbol "SparkFun-Regulator:RT9080-3.3"
-			(pin_names
-				(offset 0.254)
-			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U3"
-				(at 0 8.89 0)
+				(at 0 13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4968,7 +4965,7 @@
 				)
 			)
 			(property "Value" "RT9080-3.3"
-				(at 0 6.35 0)
+				(at 0 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4994,24 +4991,6 @@
 				)
 			)
 			(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
-				(at 0 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PROD_ID" "VREG-19034"
-				(at -1.27 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "VMax" "6V"
 				(at 0 -19.05 0)
 				(effects
 					(font
@@ -5020,13 +4999,31 @@
 					(hide yes)
 				)
 			)
-			(property "Imax" "600mA"
-				(at 0 -24.13 0)
+			(property "PROD_ID" "VREG-19034"
+				(at 0 -16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "VMax" "5.5V"
+				(at 0 8.89 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "IMax" "600mA"
+				(at 0 6.35 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "Iq" "4µA"
@@ -8397,16 +8394,6 @@
 			)
 		)
 		(uuid "ef35f8c8-69f5-4e31-a570-cd0d92292da2")
-	)
-	(text "Max input voltage: 5.5V\nMax curret output: 600mA"
-		(exclude_from_sim no)
-		(at 91.44 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f83256c8-7e8b-47b6-917a-d5e770dff96e")
 	)
 	(global_label "XBLR_IO2"
 		(shape input)
@@ -12487,7 +12474,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SparkFun-LED:LED_0603_1608Metric"
+		(property "Footprint" "SparkFun-LED:LED_0603_1608Metric_Red"
 			(at 217.17 229.87 0)
 			(effects
 				(font
@@ -14477,7 +14464,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-LED:LED_0603_1608Metric"
+		(property "Footprint" "SparkFun-LED:LED_0603_1608Metric_Yellow"
 			(at 211.074 69.85 0)
 			(effects
 				(font
@@ -15834,7 +15821,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1eed9a7-4f37-49c4-84c2-8a516a33cb67")
 		(property "Reference" "U7"
-			(at 91.44 57.15 0)
+			(at 91.44 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15842,7 +15829,7 @@
 			)
 		)
 		(property "Value" "RT9080-3.3"
-			(at 91.44 59.69 0)
+			(at 91.44 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15885,13 +15872,13 @@
 				(hide yes)
 			)
 		)
-		(property "VMax" "6V"
-			(at 91.44 85.09 0)
+		(property "VMax" "5.5V"
+			(at 91.44 57.15 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Imax" "600mA"
@@ -15910,6 +15897,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "IMax" "600mA"
+			(at 91.44 59.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
