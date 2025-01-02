@@ -5,17 +5,21 @@ SparkFun IoT Node - LoRaWAN
 
 [*SparkFun IoT Node - LoRaWAN (WRL-26060)*](https://sparkle.sparkfun.com/sparkle/parts/26060)
 
-Something Dryw is making. It'll be awesome. Nuff said. 
+The SparkFun IoT Node - LoRaWAN is a dual-action board that combines the exceptional LoRaWAN capabilities of the Digi XBee LR module with the RP2350 - a new family of microcontrollers from Raspberry Pi that offers significant enhancements over the RP2040 line. With Digi's Scan and Go Provisioning App, you'll have a data-ready device solution from development to operation up and running in no time.
+
+Digi XBee LR modules are pre-activated on the Digi X-ON cloud platform for automated connection and two-way device management. The Digi XBee LR module provides a simplified Digi Embedded API and AT command interpreter to interface with your sensor over serial.
 
 Repository Contents
 -------------------
 
-* **/Hardware** - Eagle design files (.brd, .sch)
+* **/Hardware** - KiCAD design files (.brd, .sch)
+* **/Documents** - Files related to the hardware on the board
+* **/docs** - Hookup guide files
 
 Documentation
 --------------
-* **[Library](GitHub library URL)** - <LANGUAGE> library for the <PRODUCT NAME>.
-* **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the <PRODUCT NAME>.
+* **[Hookup Guide](https://docs.sparkfun.com/SparkFun_IoT_Node_LoRaWAN)** - Basic hookup guide for the SparkFun IoT Node - LoRaWAN.
+* **[Library](GitHub library URL)** - Arduino library for the SparkFun IoT Node - LoRaWAN.
 
 
 License Information
