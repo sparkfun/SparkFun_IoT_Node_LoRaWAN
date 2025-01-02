@@ -1,7 +1,7 @@
 SparkFun IoT Node - LoRaWAN
 ========================================
 
-[![SparkFun IoT Node - LoRaWAN](URL for picture of part)](https://sparkle.sparkfun.com/sparkle/parts/26060)
+[![SparkFun IoT Node - LoRaWAN](https://github.com/sparkfun/SparkFun_IoT_Node_LoRaWAN/blob/main/docs/assets/img/26060-IoT-Node-LoRaWAN-Feature.jpg)](https://sparkle.sparkfun.com/sparkle/parts/26060)
 
 [*SparkFun IoT Node - LoRaWAN (WRL-26060)*](https://sparkle.sparkfun.com/sparkle/parts/26060)
 
@@ -19,7 +19,6 @@ Repository Contents
 Documentation
 --------------
 * **[Hookup Guide](https://docs.sparkfun.com/SparkFun_IoT_Node_LoRaWAN)** - Basic hookup guide for the SparkFun IoT Node - LoRaWAN.
-* **[Library](GitHub library URL)** - Arduino library for the SparkFun IoT Node - LoRaWAN.
 
 
 License Information
