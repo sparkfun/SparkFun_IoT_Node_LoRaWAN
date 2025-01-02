@@ -5,7 +5,7 @@ icon: material/cog
  
 ## XBee LR LoRaWAN® Module
 
-The XBee® LR from Digi® is a wireless communications module that supports the LoRaWAN® communications protocol, enabling direct communication with standards-compliant LoRaWAN® gateways and Network Server cloud software over long range with very low-power consumption. It comes pre-activated with Digi® X-ON™ - a complete device-to-cloud platform for connected IoT devices which provides a simplified Digi® Embedded API and AT command interpreter to interface with your sensor over serial. Scanning the QR Code on the module will take you directly to the Digi® X-ON™ cloud platform for automated connection and two-way device management. For more information, refer to the [datasheet](assets/component_documentation/Digi-XBLR-Datasheet.pdf).
+The XBee® LR from Digi is a wireless communications module that supports the LoRaWAN® communications protocol, enabling direct communication with standards-compliant LoRaWAN® gateways and Network Server cloud software over long range with very low-power consumption. It comes pre-activated with Digi X-ON™ - a complete device-to-cloud platform for connected IoT devices which provides a simplified Digi Embedded API and AT command interpreter to interface with your sensor over serial. Scanning the QR Code on the module will take you directly to the Digi X-ON cloud platform for automated connection and two-way device management. For more information, refer to the [datasheet](assets/component_documentation/Digi-XBLR-Datasheet.pdf).
 
 
 ISM 902 to 928 MHz, 868 to 870 MHz
