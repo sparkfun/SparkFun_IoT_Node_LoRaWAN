@@ -2,13 +2,13 @@
 icon: fontawesome/solid/screwdriver-wrench
 ---
 
-Using the Qwiic system, assembling the hardware is simple. Connect the Qwiic sensor to the LoRaWAN board using a Qwiic cable. Then connect the LoRaWAN to your computer via the USB-C cable.  
+Using the Qwiic system, assembling the hardware is simple. Connect the Qwiic sensor to the SparkFun IoT Node for LoRaWAN® board using a Qwiic cable. Then connect the SparkFun IoT Node for LoRaWAN® board to your computer via the USB-C cable.  
 
 
 
 <figure markdown>
 [![LoRaWAN connected to Qwiic board](assets/img/26060-LoRaWAN-QwiicBoard.jpg){ width="75%" }](assets/img/26060-LoRaWAN-QwiicBoard.jpg "Click to enlarge")
-<figcaption markdown>Connecting a Qwiic Sensor to the IoT Node - LoRaWAN Board</figcaption>
+<figcaption markdown>Connecting a Qwiic Sensor to the SparkFun IoT Node for LoRaWAN® Board</figcaption>
 </figure>
 
 

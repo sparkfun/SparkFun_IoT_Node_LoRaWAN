@@ -4,7 +4,7 @@ Not all microSD cards are created equal. The [capacity, read/write speed, and fo
 
 ## Checking MicroSD Card Format
 
-While you can simply insert the microSD card into your SparkFun IoT Node LoRaWAN and start logging, there may be a chance that the it will not recognize the memory card due to the format.
+While you can simply insert the microSD card into your SparkFun IoT Node for LoRaWAN® and start logging, there may be a chance that the it will not recognize the memory card due to the format.
 
 
 
@@ -12,17 +12,19 @@ While you can simply insert the microSD card into your SparkFun IoT Node LoRaWAN
 
 To check to see if it is the correct format on a Windows you could head to the drive, right click, and select **Properties**.
 
-<div style="text-align: center">
-  <a href="../assets/img/microSD_Card_Properties.JPG">
-  <img src="../assets/img/microSD_Card_Properties.JPG" width="600" height="600" alt="microSD Card Properties"></a>
-</div>
+<figure markdown>
+[![microSD Card Properties](assets/img/microSD_Card_Properties.jpg){ width="75%" }](assets/img/microSD_Card_Properties.jpg "Click to enlarge")
+<figcaption markdown>microSD Card Properties</figcaption>
+</figure>
+
+
 
 Once the properties are open, you should be able to tell what file system that the memory card uses. In this case, it was exFAT which is not compatible with the DataLogger IoT. You will need to reformat the memory card since it is not formatted as FAT32.
 
-<div style="text-align: center">
-  <a href="../assets/img/microSD_Card_Check_File_System_exFAT.JPG">
-  <img src="../assets/img/microSD_Card_Check_File_System_exFAT.JPG" width="439" height="439" alt="Check File System Windows"></a>
-</div>
+<figure markdown>
+[![Check File System Windows](assets/img/microSD_Card_Check_File_System_exFAT.jpg){ width="75%" }](assets/img/microSD_Card_Check_File_System_exFAT.jpg "Click to enlarge")
+<figcaption markdown>Check File System Windows</figcaption>
+</figure>
 
 
 
@@ -30,17 +32,19 @@ Once the properties are open, you should be able to tell what file system that t
 
 To check to see if it is the correct format on a macOS, you could head to the drive on your desktop. Then right click, and select **Get Info**.
 
-<div style="text-align: center">
-  <a href="../assets/img/mac_get_info.png">
-  <img src="../assets/img/mac_get_info.png" width="600" height="600" alt="Get Info on MicroSD Card"></a>
-</div>
+<figure markdown>
+[![Get Info on MicroSD Card](assets/img/mac_get_info.png){ width="75%" }](assets/img/mac_get_info.png "Click to enlarge")
+<figcaption markdown>Get Info on MicroSD Card</figcaption>
+</figure>
+
 
 A window will pop up indicating the microSD card properties. Under **General:** > **Format:**, you should be able to tell what file system that the memory card uses. In this case, it was exFAT which is not compatible with the DataLogger IoT. You will need to reformat the memory card since it is not formatted as FAT32.
 
-<div style="text-align: center">
-  <a href="../assets/img/mac_microSD_exFat.png">
-  <img src="../assets/img/mac_microSD_exFat.png" width="300" height="300" alt="exFAT"></a>
-</div>
+
+<figure markdown>
+[![exFAT](assets/img/mac_microSD_exFat.png){ width="75%" }](assets/img/mac_microSD_exFat.png "Click to enlarge")
+<figcaption markdown>exFAT</figcaption>
+</figure>
 
 
 
@@ -56,40 +60,64 @@ There are a few methods and programs available to reformat your microSD card as 
 
 After downloading and installing the software, open the Raspberry Pi Imager.
 
-<div style="text-align: center">
-  <a href="../assets/img/Raspberry_Pi_Imager.JPG">
-  <img src="../assets/img/Raspberry_Pi_Imager.JPG" width="600" height="600" alt="Raspberry Pi Imager"></a>
-</div>
+<figure markdown>
+[![Raspberry Pi Imager](assets/img/Raspberry_Pi_Imager.jpg){ width="75%" }](assets/img/Raspberry_Pi_Imager.jpg "Click to enlarge")
+<figcaption markdown>Raspberry Pi Imager</figcaption>
+</figure>
+
+
 
 Under "**Operating System**", select "**Erase**" to "format card as FAT32."
 
-<div style="text-align: center">
-  <a href="../assets/img/Raspberry_Pi_Imager_Erase_Format.JPG">
-  <img src="../assets/img/Raspberry_Pi_Imager_Erase_Format.JPG" width="600" height="600" alt="Raspberry Pi Imager - Erase : Format as FAT32"></a>
-</div>
+<figure markdown>
+[![Raspberry Pi Imager - Erase : Format as FAT32](assets/img/Raspberry_Pi_Imager_Erase_Format.jpg){ width="75%" }](assets/img/Raspberry_Pi_Imager_Erase_Format.jpg "Click to enlarge")
+<figcaption markdown>Raspberry Pi Imager - Erase : Format as FAT32</figcaption>
+</figure>
+
 
 Under "**Storage**", select the drive that the microSD card appeared as on your computer.
 
-<div style="text-align: center">
-  <a href="../assets/img/Raspberry_Pi_Imager_Select_Drive.JPG">
-  <img src="../assets/img/Raspberry_Pi_Imager_Select_Drive.JPG" width="600" height="600" alt="Raspberry Pi Imager - Select Storage Drive"></a>
-</div>
+<figure markdown>
+[![Raspberry Pi Imager - Select Storage Drive](assets/img/Raspberry_Pi_Imager_Select_Drive.jpg){ width="75%" }](assets/img/Raspberry_Pi_Imager_Select_Drive.jpg "Click to enlarge")
+<figcaption markdown>Raspberry Pi Imager - Select Storage Drive</figcaption>
+</figure>
+
+
+
 
 When ready, select "**Write**". After a few minutes, the microSD card should be formatted with FAT32.
 
-<div style="text-align: center">
-  <a href="../assets/img/Raspberry_Pi_Imager_Write.JPG">
-  <img src="../assets/img/Raspberry_Pi_Imager_Write.JPG" width="600" height="600" alt="Raspberry Pi Imager - Write"></a>
-</div>
+<figure markdown>
+[![Raspberry Pi Imager - Write](assets/img/Raspberry_Pi_Imager_Write.jpg){ width="75%" }](assets/img/Raspberry_Pi_Imager_Write.jpg "Click to enlarge")
+<figcaption markdown>Raspberry Pi Imager - Write</figcaption>
+</figure>
+
+
 
 Once the memory card has finished formatting, eject the microSD from your computer. To check to see if the microSD card is formatted as FAT32, you can check its properties as explained earlier with your operating system. Below shows a screenshot from a Windows and macOS showing that the microSD card reformatted as a FAT32 file system.
-<div style="text-align: center;">
-  <table>
-    <tr style="vertical-align:middle;">
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/microSD_Card_Check_File_System_FAT32.JPG">
-     <img src="../assets/img/microSD_Card_Check_File_System_FAT32.JPG" width="439" height="439" alt="Check File System Windows"></a></td>
-     <td style="text-align: center; vertical-align: middle; border: solid 1px #cccccc;"><a href="../assets/img/mac_microSD_FAT32.png">
-     <img src="../assets/img/mac_microSD_FAT32.png" width="250" height="250" alt="Check File System macOS"></a></td>
-    </tr>
-  </table>
-</div>
+
+
+<figure markdown>
+[![Check File System Windows](assets/img/microSD_Card_Check_File_System_FAT32.JPG){ width="75%" }](assets/img/microSD_Card_Check_File_System_FAT32.JPG "Click to enlarge")
+<figcaption markdown>Check File System Windows</figcaption>
+</figure>
+
+<figure markdown>
+[![Check File System macOS](assets/img/mac_microSD_FAT32.png){ width="75%" }](assets/img/mac_microSD_FAT32.png "Click to enlarge")
+<figcaption markdown>Check File System macOS</figcaption>
+</figure>
+
+
+
+<!--
+<table class="table table-hover table-striped table-bordered">
+  <tr style="vertical-align:middle;">
+   <td style="text-align: center; vertical-align: middle;"><a href="https://github.com/sparkfun/SparkFun_DataLogger/blob/main/docs/assets/img/microSD_Card_Check_File_System_FAT32.jpg"><img src="https://github.com/sparkfun/SparkFun_DataLogger/blob/main/docs/assets/img/microSD_Card_Check_File_System_FAT32.jpg" alt="Check File System Windows"></a></td>
+   <td style="text-align: center; vertical-align: middle;"><a href="https://github.com/sparkfun/SparkFun_DataLogger/blob/main/docs/assets/img/mac_microSD_FAT32.png"><img src="https://github.com/sparkfun/SparkFun_DataLogger/blob/main/docs/assets/img/mac_microSD_FAT32.png" alt="Check File System macOS"></a></td>
+  </tr>
+  <tr style="vertical-align:middle;">
+  <td style="text-align: center; vertical-align: middle;"><i>Check File System Windows</i></td>
+  <td style="text-align: center; vertical-align: middle;"><i>Check File System macOS</i></td>
+  </tr>
+</table>
+-->

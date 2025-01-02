@@ -367,8 +367,6 @@ nav:
   - Software: 
     - microSD Card: prepare_your_microsd_card.md
     - UF2: uf2.md
-    - Arduino: software_setup-arduino.md
-    - Examples: arduino_example.md
   - Resources: resources.md
   - Support:
     - Troubleshooting: troubleshooting.md

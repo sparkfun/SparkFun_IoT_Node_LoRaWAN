@@ -3,23 +3,23 @@ icon: material/cog
 ---
 
  
-## XBee LR LoRaWAN Module
+## XBee LR LoRaWAN® Module
 
-The XBee® LR from Digi® is a wireless communications module that supports the LoRaWAN™ communications protocol, enabling direct communication with standards-compliant LoRaWAN gateways and Network Server cloud software over long range with very low-power consumption. It comes pre-activated with Digi® X-ON™ - a complete device-to-cloud platform for connected IoT devices which provides a simplified Digi® Embedded API and AT command interpreter to interface with your sensor over serial. Scanning the QR Code on the module will take you directly to the Digi® X-ON™ cloud platform for automated connection and two-way device management. For more information, refer to the [datasheet](assets/component_documentation/Digi-XBLR-Datasheet.pdf).
+The XBee® LR from Digi® is a wireless communications module that supports the LoRaWAN® communications protocol, enabling direct communication with standards-compliant LoRaWAN® gateways and Network Server cloud software over long range with very low-power consumption. It comes pre-activated with Digi® X-ON™ - a complete device-to-cloud platform for connected IoT devices which provides a simplified Digi® Embedded API and AT command interpreter to interface with your sensor over serial. Scanning the QR Code on the module will take you directly to the Digi® X-ON™ cloud platform for automated connection and two-way device management. For more information, refer to the [datasheet](assets/component_documentation/Digi-XBLR-Datasheet.pdf).
 
 
 ISM 902 to 928 MHz, 868 to 870 MHz
-LoRaWAN 1.0.4, OTAA, ABP
+LoRaWAN® 1.0.4, OTAA, ABP
 
 
 <figure markdown>
 [![XBee LR LoRaWAN Module](assets/img/26060-IoT-Node-LoRaWAN-XBLR.jpg){ width="50%" }](assets/img/26060-IoT-Node-LoRaWAN-XBLR.jpg "Click to enlarge")
-<figcaption markdown>XBee LR LoRaWAN Module</figcaption>
+<figcaption markdown>XBee LR LoRaWAN® Module</figcaption>
 </figure>
 
 ## RP2350
 
-The RP2350 is part of a new family of microcontrollers from Raspberry Pi that offers significant enhancements over RP2040. Along with the Dual ARM M33/RISC-V Hazard 3 CPU core running at a frequency of 150MHz and double the amount of internal RAM, the RP2350 also includes 8MB of PSRAM as well as a host of peripherals. As shipped, the IoT Node LoRaWAN board makes use of the ARM M33 Core, but the user has the option to change to the RISC-V Hazard 3 CPU Core. More information can be found in the datasheet [here](assets/component_documentation/).
+The RP2350 is part of a new family of microcontrollers from Raspberry Pi that offers significant enhancements over RP2040. Along with the Dual ARM M33/RISC-V Hazard 3 CPU core running at a frequency of 150MHz and double the amount of internal RAM, the RP2350 also includes 8MB of PSRAM as well as a host of peripherals. As shipped, the SparkFun IoT Node for LoRaWAN® board makes use of the ARM M33 Core, but the user has the option to change to the RISC-V Hazard 3 CPU Core. More information can be found in the datasheet [here](assets/component_documentation/).
 
 <figure markdown>
 [![RP2350](assets/img/26060-IoT-Node-LoRaWAN-RP2350.jpg){ width="50%" }](assets/img/26060-IoT-Node-LoRaWAN-RP2350.jpg "Click to enlarge")
@@ -151,7 +151,7 @@ Charging occurs at a rate of 455mA. Our calculation of this rate is via the equa
 * <b>PWR:</b>
 	Cut the PWR trace to disable the Power LED. 
 * <b>I<sup>2</sup>C:</b>
-	The SparkFun IOT Node LoRaWAN board has built-in 2.2k pull-up resistors on the SDA and SCL lines. These are needed for normal I<sup>2</sup>C communication. The I<sup>2</sup>C jumper has two small traces connecting the pull-ups to 3.3V. **For general use you can leave this jumper unmodified.** If you have many (over 7) devices on the I<sup>2</sup>C bus, each with their own pull up resistors, then you may want to [cut the I<sup>2</sup>C jumpers](https://learn.sparkfun.com/tutorials/how-to-work-with-jumper-pads-and-pcb-traces) to disconnect the 2.2k resistors on each Qwiic board.
+	The SparkFun IoT Node for LoRaWAN® board has built-in 2.2k pull-up resistors on the SDA and SCL lines. These are needed for normal I<sup>2</sup>C communication. The I<sup>2</sup>C jumper has two small traces connecting the pull-ups to 3.3V. **For general use you can leave this jumper unmodified.** If you have many (over 7) devices on the I<sup>2</sup>C bus, each with their own pull up resistors, then you may want to [cut the I<sup>2</sup>C jumpers](https://learn.sparkfun.com/tutorials/how-to-work-with-jumper-pads-and-pcb-traces) to disconnect the 2.2k resistors on each Qwiic board.
 
 
 
@@ -163,7 +163,7 @@ The board dimensions are illustrated in the drawing below; the listed measuremen
 
 <figure markdown>
 [![Board measures 59mm x 82mm](assets/img/26060_SparkFun_IOT_Node_LoRaWAN-BoardOutline.jpg){ width="75%" }](assets/img/26060_SparkFun_IOT_Node_LoRaWAN-BoardOutline.jpg "Click to enlarge")
-<figcaption markdown>SparkFun IOT Node LoRaWAN Board Dimensions</figcaption>
+<figcaption markdown>SparkFun IoT Node for LoRaWAN® Board Dimensions</figcaption>
 </figure>
 
 	

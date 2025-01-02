@@ -6,7 +6,7 @@ hide: toc
 <div class="grid cards desc" markdown>
 
 -    <a href="https://www.sparkfun.com/products/26060">
-    **SparkFun IoT Node - LoRaWAN**<br>
+    **SparkFun IoT Node for LoRaWAN®**<br>
     **SKU:** WRL-26060
 
     ---
@@ -15,9 +15,7 @@ hide: toc
     ![Product Thumbnail](assets/img/26060-IoT-Node-LoRaWAN-Feature.jpg)
     </figure></a>
     
--    The SparkFun IoT Node - LoRaWAN is a dual-action board that combines the exceptional LoRaWAN capabilities of the Digi XBee LR module with the RP2350 - a new family of microcontrollers from Raspberry Pi that offers significant enhancements over the RP2040 line. With Digi's Scan and Go Provisioning App, you'll have a data-ready device solution from development to operation up and running in no time.
-
-    Digi XBee LR modules are pre-activated on the Digi X-ON cloud platform for automated connection and two-way device management. The Digi XBee LR module provides a simplified Digi Embedded API and AT command interpreter to interface with your sensor over serial.
+-    The SparkFun IoT Node for LoRaWAN® development board brings an entirely new level of usability to the often convoluted and configuration-intensive effort to set up a LoRaWAN®-based IoT Device. Combining the ease of LoRaWAN® setup and configuration delivered by the Digi X-ON™ system with the rapid prototyping provided by the SparkFun Qwiic ecosystem, the SparkFun IoT Node for LoRaWAN® development board accelerates IoT end-node creation and deployment.
 
     <center>
     [Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/26060){ .md-button .md-button--primary }
@@ -49,7 +47,7 @@ If you've purchased the kit, there will be a welcome card included that contains
 -->
 
 
-## Register the LoRaWAN Node
+## Register the LoRaWAN® Node
 
 To provision a device, go to the following link, log in if necessary, and scan the Data Matrix on the XBee. 
 
@@ -75,7 +73,7 @@ To provision a device, go to the following link, log in if necessary, and scan t
 
 ## Digi Devices
 
-Once you've registered your SparkFun IoT Node - LoRaWAN board, you'll see it in your devices. Go to **Network Dashboard** -> **Devices**
+Once you've registered your SparkFun IoT Node for LoRaWAN® board, you'll see it in your devices. Go to **Network Dashboard** -> **Devices**
 
 <figure markdown>
 [![Devices on Digi](assets/img/SelectDevices.png){ width="75%" }](assets/img/SelectDevices.png "Click to enlarge")
@@ -106,13 +104,13 @@ Our [Qwiic Ecosystem](https://www.sparkfun.com/qwiic) has an array of plug and p
 
 <figure markdown>
 [![LoRaWAN connected to Qwiic board](assets/img/26060-LoRaWAN-QwiicBoard.jpg){ width="75%" }](assets/img/26060-LoRaWAN-QwiicBoard.jpg "Click to enlarge")
-<figcaption markdown>Connecting a Qwiic Sensor to the IoT Node - LoRaWAN Board</figcaption>
+<figcaption markdown>Connecting a Qwiic Sensor to the SparkFun IoT Node for LoRaWAN® Board</figcaption>
 </figure>
 
 
 ## Reading Firmware
 
-The SparkFun IoT Node - LoRaWAN comes with Firmware that allows for a number of settings. By default, you can leave this be, but if you're interested in changing settings or verifying that everything is working you can pull up your favorite terminal (Putty, TeraTerm, etc), connect via serial to the port your LoRaWAN has enumerated on, and you should see something like the following: 
+The SparkFun IoT Node for LoRaWAN® comes with Firmware that allows for a number of settings. By default, you can leave this be, but if you're interested in changing settings or verifying that everything is working you can pull up your favorite terminal (Putty, TeraTerm, etc), connect via serial to the port your LoRaWAN® has enumerated on, and you should see something like the following: 
 
 <figure markdown>
 [![Connecting with TeraTerm](assets/img/TeraTerm_BaseMenu.png){ width="75%" }](assets/img/TeraTerm_BaseMenu.png "Click to enlarge")
@@ -125,7 +123,7 @@ There are a number of different menus and settings you can scroll through at you
 
 ## Reading Data
 
-If nothing is entered in the above window, the LoRaWAN will use default settings and start running. 
+If nothing is entered in the above window, the LoRaWAN® will use default settings and start running. 
 
 
 <figure markdown>

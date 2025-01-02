@@ -2,7 +2,7 @@
 
 
 
-The SparkFun IoT Node-LoRaWAN™ uses a UF2 bootloader for easy flashing/uploading of code to the board. The UF2 bootloader causes the board to show up on your computer as a USB storage device and does <b>not</b> require any drivers for Windows, Mac OSX, and Linux. This bootloader is used for uploading in both the Pico SDK and MicroPython development environments so let's take a brief look at how to enter bootload mode.
+The SparkFun IoT Node for LoRaWAN® uses a UF2 bootloader for easy flashing/uploading of code to the board. The UF2 bootloader causes the board to show up on your computer as a USB storage device and does <b>not</b> require any drivers for Windows, Mac OSX, and Linux. This bootloader is used for uploading in both the Pico SDK and MicroPython development environments so let's take a brief look at how to enter bootload mode.
 
 ## What is UF2?
 
@@ -10,7 +10,7 @@ UF2 stands for USB Flashing Format, which was developed by Microsoft for PXT (no
 
 ## Entering the Bootloader
 
-Putting the SparkFun IoT Node - LoRaWAN™ into bootloader mode only requires a couple of presses of the BOOT and RESET buttons. Start by pressing and holding the BOOT button down:
+Putting the SparkFun IoT Node for LoRaWAN® into bootloader mode only requires a couple of presses of the BOOT and RESET buttons. Start by pressing and holding the BOOT button down:
 
 <figure markdown>
 [![Pressing the BOOT button](./assets/img/26060-LoRaWAN-Boot1.jpg){ width="75%"}](./assets/img/26060-LoRaWAN-Boot1.jpg "Click to enlarge")
