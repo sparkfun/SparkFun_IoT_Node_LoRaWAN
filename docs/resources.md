@@ -7,7 +7,7 @@ For more resources related to the SparkFun IoT Node for LoRaWAN®, check out the
 * [Schematic](https://docs.sparkfun.com/SparkFun_IoT_Node_LoRaWAN/assets/board_files/schematic.pdf)
 * [Eagle Files](https://docs.sparkfun.com/SparkFun_IoT_Node_LoRaWAN/assets/board_files/eagle_files.zip)
 * [Board Dimensions](https://docs.sparkfun.com/SparkFun_IoT_Node_LoRaWAN/assets/board_files/dimensions.pdf)
-* [Graphical Datasheet](https://docs.sparkfun.com/SparkFun_IoT_Node_LoRaWAN/assets/board_files/graphical_datasheet.pdf)
+* [Graphical Datasheet](https://docs.sparkfun.com/SparkFun_IoT_Node_LoRaWAN/assets/board_files/26060_SparkFun_IoT_Node_LoRaWAN_GDS.pdf)
 * [GitHub Hardware Repository](https://github.com/sparkfun/SparkFun_IoT_Node_LoRaWAN)
 * Datasheets
     * [RP2350](https://cdn.sparkfun.com/assets/0/7/7/c/4/rp2350-datasheet.pdf)
