@@ -52,8 +52,8 @@ Repository Contents
 
 Documentation
 --------------
-* **[Hookup Guide](https://docs.sparkfun.com/SparkFun_IoT_Node_LoRaWAN)** - Basic hookup guide for the SparkFun IoT Node - LoRaWAN.
-
+* **[Hookup Guide](https://docs.sparkfun.com/SparkFun_IoT_Node_LoRaWAN)** - Basic hookup guide for the SparkFun IoT Node for LoRaWAN®.
+* **[Firmware Guide](https://docs.sparkfun.com/sfe-iot-node-lorawan/)** - Firmware guide for the SparkFun IoT Node for LoRaWAN®.
 
 License Information
 -------------------
