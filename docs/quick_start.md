@@ -117,8 +117,7 @@ The SparkFun IoT Node for LoRaWAN® comes with Firmware that allows for a number
 <figcaption markdown>Connecting with TeraTerm</figcaption>
 </figure>
 
-There are a number of different menus and settings you can scroll through at your leisure. 
-
+There are a number of different menus and settings you can scroll through at your leisure. Head over to the [Firmware Tutorial](https://docs.sparkfun.com/sfe-iot-node-lorawan) for more information. 
 
 
 ## Reading Data
