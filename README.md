@@ -1,9 +1,9 @@
 SparkFun IoT Node - LoRaWAN
 ========================================
 
-[![SparkFun IoT Node - LoRaWAN](https://cdn.sparkfun.com/r/600-600/assets/parts/2/6/8/8/3/26060-IoT-Node-LoRaWAN-Feature-new.jpg)](https://sparkle.sparkfun.com/sparkle/parts/26060)
+[![SparkFun IoT Node - LoRaWAN](https://cdn.sparkfun.com/r/600-600/assets/parts/2/6/8/8/3/26060-IoT-Node-LoRaWAN-Feature-new.jpg)](https://www.sparkfun.com/products/26060)
 
-[*SparkFun IoT Node - LoRaWAN (WRL-26060)*](https://sparkle.sparkfun.com/sparkle/parts/26060)
+[*SparkFun IoT Node - LoRaWAN (WRL-26060)*](https://www.sparkfun.com/products/26060)
 
 ![Documentation - build](https://img.shields.io/github/actions/workflow/status/sparkfun/SparkFun_IoT_Node_LoRaWAN/pages%2Fpages-build-deployment?label=Documentation)
 ![GitHub issues](https://img.shields.io/github/issues/sparkfun/SparkFun_IoT_Node_LoRaWAN)
