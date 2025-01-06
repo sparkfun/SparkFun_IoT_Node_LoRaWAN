@@ -5,6 +5,10 @@ SparkFun IoT Node - LoRaWAN
 
 [*SparkFun IoT Node - LoRaWAN (WRL-26060)*](https://sparkle.sparkfun.com/sparkle/parts/26060)
 
+![Documentation - build](https://img.shields.io/github/actions/workflow/status/sparkfun/SparkFun_IoT_Node_LoRaWAN/pages%2Fpages-build-deployment?label=Documentation)
+![GitHub issues](https://img.shields.io/github/issues/sparkfun/SparkFun_IoT_Node_LoRaWAN)
+
+
 The SparkFun IoT Node – LoRaWAN development board brings an entirely new level of usability to the often convoluted and configuration-intensive effort to set up a LoRaWAN™-based IoT Device. Combining the ease of LoRaWAN™ setup and configuration delivered by the Digi X-ON™ system with the rapid prototyping provided by the SparkFun Qwiic ecosystem, the SparkFun IoT Node – LoRaWAN development board accelerates IoT end-node creation and deployment.  
 
 **Out of the Box**
