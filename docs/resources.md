@@ -6,7 +6,7 @@ For more resources related to the SparkFun IoT Node for LoRaWAN®, check out the
 * [Product Page](https://www.sparkfun.com/products/26060)
 * [Schematic](https://docs.sparkfun.com/SparkFun_IoT_Node_LoRaWAN/assets/board_files/26060_SparkFun_IoT_Node_LoRaWAN_Schematic.pdf)
 * [KiCad Files](https://docs.sparkfun.com/SparkFun_IoT_Node_LoRaWAN/assets/board_files/SparkFun_IoT_Node_LoRaWAN_KiCADFiles.zip)
-* [Board Dimensions](https://docs.sparkfun.com/SparkFun_IoT_Node_LoRaWAN/assets/board_files/dimensions.pdf)
+* [Board Dimensions](https://docs.sparkfun.com/SparkFun_IoT_Node_LoRaWAN/assets/board_files/26060_SparkFun_IOT_Node_LoRaWAN-BoardOutline.jpg)
 * [Graphical Datasheet](https://docs.sparkfun.com/SparkFun_IoT_Node_LoRaWAN/assets/board_files/26060_SparkFun_IoT_Node_LoRaWAN_GDS.pdf)
 * [GitHub Hardware Repository](https://github.com/sparkfun/SparkFun_IoT_Node_LoRaWAN)
 * Datasheets
