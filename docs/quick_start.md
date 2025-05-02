@@ -52,7 +52,7 @@ If you've purchased the kit, there will be a welcome card included that contains
 To provision a device, go to the following link, log in if necessary, and scan the Data Matrix on the XBee. We recommend using the camera on a mobile device/phone to scan the Data Matrix.
 
 <center>
-[Digi Scan :fontawesome-solid-camera:{ .heart }](https://scan-us1.haxiot.com/){ .md-button .md-button--primary }
+[Digi Scan](https://scan-us1.haxiot.com/){ .md-button .md-button--primary }
 </center>
 
 
